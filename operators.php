@@ -2,7 +2,7 @@
 
 #PHP Operators
 
-$x = 20;  
+$x = 20;
 $x += 100;
 
 echo "$x<br>";
@@ -31,12 +31,12 @@ echo "$y<br>";
 
 #PHP Comparison Operators
 
-$x = 100; //type number 
+$x = 100; //type number
 $y = "100"; //type string
 
 var_dump($x == $y); //Equal
 
-$q = 100; //type number 
+$q = 100; //type number
 $s = "100"; //type string
 
 var_dump($q != $s);//Unequal
@@ -65,7 +65,7 @@ var_dump($x >= $y);
 // PHP Logical Operators
 
 // &&
-$x = 100;  
+$x = 100;
 $y = 50;
 
 if ($x == 100 && $y == 50) {
@@ -73,7 +73,7 @@ if ($x == 100 && $y == 50) {
 }
 
 // and
-$x = 100;  
+$x = 100;
 $y = 50;
 
 if ($x == 100 and $y == 50) {
@@ -81,7 +81,7 @@ if ($x == 100 and $y == 50) {
 }
 
 // ||
-$x = 100;  
+$x = 100;
 $y = 50;
 
 if ($x == 100 || $y == 80) {
@@ -89,7 +89,7 @@ if ($x == 100 || $y == 80) {
 }
 
 // or
-$x = 100;  
+$x = 100;
 $y = 50;
 
 if ($x == 100 or $y == 80) {
@@ -98,7 +98,7 @@ if ($x == 100 or $y == 80) {
 
 // ! (NOT)
 
-$x = 100;  
+$x = 100;
 
 if ($x !== 90) {
     echo "Hello world with (!)<br>";
@@ -106,7 +106,7 @@ if ($x !== 90) {
 
 // xor
 
-$x = 100;  
+$x = 100;
 $y = 50;
 
 if ($x == 100 xor $y == 80) {
@@ -114,4 +114,4 @@ if ($x == 100 xor $y == 80) {
 }
 
 
-?> 
+?>
